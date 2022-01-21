@@ -25,7 +25,7 @@ public class ApiModelTest extends BaseTest {
 	}
 	
 	@Test
-	public void make() {
+	public void validarCampoMakeID() {
 		given()
 		.when()
 			.get("/Model?MakeID=1")
